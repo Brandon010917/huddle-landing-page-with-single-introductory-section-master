@@ -1,0 +1,70 @@
+:root {
+  /* ## Colors */ /* ### Primary */
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+
+  /* ## Typography */ /* ### Headings */
+  --font-heading: "Poppins", sans-serif;
+
+  /* ## Typography */ /* ### Body */
+  --font-body: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: var(--violet);
+  font-family: var(--font-body);
+}
+
+.header {
+  padding: 1.5rem;
+}
+
+.header__logo {
+  width: 50%;
+}
+
+main {
+  padding: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.main-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.main-text {
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.btn {
+  display: block;
+  background-color: #fff;
+  color: var(--violet);
+  padding: 1rem 0;
+  margin-top: 1.5rem 1.5rem 0;
+  border-radius: 2rem;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+}
+
+.social__icon {
+  width: 20px;
+  height: 20px;
+}
