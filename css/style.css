@@ -50,6 +50,7 @@ main {
 .main-text {
   line-height: 1.5rem;
   font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .btn {
@@ -57,14 +58,34 @@ main {
   background-color: #fff;
   color: var(--violet);
   padding: 1rem 0;
-  margin-top: 1.5rem 1.5rem 0;
+  margin-top: 1.5rem 2rem 0;
   border-radius: 2rem;
   font-weight: 600;
   font-family: var(--font-heading);
   font-size: 0.9rem;
+  box-shadow: 0 5px 0 5px rbga(0, 0, 0, .3);
+}
+
+.social {
+  margin-top: 4rem;
+}
+
+.social__items {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social__icon {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
+  border: thin solid #FFF;
+  border-radius: 50%;
+  line-height: 25px;
+  color: #FFF;
 }
