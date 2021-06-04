@@ -110,6 +110,9 @@ main {
   font-family: var(--font-heading);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
   font-size: 0.9rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 768px) {
@@ -117,6 +120,8 @@ main {
     width: 50%;
     text-align: center;
     font-size: 1rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .btn:hover {
