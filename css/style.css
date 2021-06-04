@@ -128,7 +128,7 @@ main {
 .social {
   position: relative;
   grid-column: 2 / 3;
-  bottom: -4rem;
+  margin-top: 2rem;
 }
 
 .social__items {
@@ -153,6 +153,12 @@ main {
   .social__items {
     justify-content: flex-end;
     margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .social {
+    bottom: -4rem
   }
 }
 
